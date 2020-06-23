@@ -1,0 +1,274 @@
+{
+  "rasa_nlu_data": {
+    "lookup_tables": [
+      {
+        "name": "food",
+        "elements": "data/foods.txt"
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "今天突然好想吃饅頭",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "饅頭",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "今天",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "今天想喝餛飩湯",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "餛飩湯",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "今天",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "我想吃三商巧福的牛肉麵",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "三商巧福",
+            "entity": "store"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "牛肉麵",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "家裡的沐浴乳快沒了",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "沐浴乳",
+            "entity": "consumable"
+          }
+        ]
+      },
+      {
+        "text": "早餐有點想吃蛋餅",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "蛋餅",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "早餐",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "我要拉亞漢堡",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "拉亞",
+            "entity": "store"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "漢堡",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "幫我買一杯八五咖啡",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "八五",
+            "entity": "store"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "咖啡",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "我想吃個蛋糕",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "蛋糕",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "我好想吃個巧克力蛋糕",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "巧克力蛋糕",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "可不可以幫我買杯拿鐵",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "拿鐵",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "我要一個蛋餅",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "蛋餅",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "牙刷壞掉了，幫我買個新的吧！",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "牙刷",
+            "entity": "consumable"
+          }
+        ]
+      },
+      {
+        "text": "肚子好餓好想吃達美樂披薩",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "達美樂",
+            "entity": "store"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "披薩",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "我要一杯奶茶加培根蛋土司",
+        "intent": "requirement",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "奶茶",
+            "entity": "food"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "培根蛋土司",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "今天想去公園走走",
+        "intent": "hangout",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "公園",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "今天",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "今天想去大潤發逛逛",
+        "intent": "hangout",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "大潤發",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "今天",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "可以帶出去走走",
+        "intent": "hangout",
+        "entities": []
+      },
+      {
+        "text": "我想出去曬曬太陽",
+        "intent": "hangout",
+        "entities": []
+      }
+    ]
+  }
+}
