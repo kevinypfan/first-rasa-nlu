@@ -1,0 +1,34 @@
+language: zh
+pipeline:
+  - name: JiebaTokenizer
+    dictionary_path: /Users/kevinfan/code/nlu/first_rasa/words.txt
+    intent_tokenization_flag: true
+  # - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 50
+    ranking_length: 5
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+  - name: MappingPolicy
+# policies:
+#   - name: EmbeddingPolicy
+#     max_history: 10
+#     epochs: 20
+#     batch_size:
+#       - 32
+#       - 64
+#   - max_history: 6
+#     name: AugmentedMemoizationPolicy
+#   - core_threshold: 0.3
+#     name: TwoStageFallbackPolicy
+#     nlu_threshold: 0.8
+#   - name: FormPolicy
+#   - name: MappingPolicy

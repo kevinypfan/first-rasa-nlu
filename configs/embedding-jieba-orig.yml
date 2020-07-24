@@ -1,0 +1,15 @@
+language: zh
+pipeline:
+  - name: JiebaTokenizer
+    dictionary_path: /Users/kevinfan/code/nlu/first_rasa/words.txt
+    intent_tokenization_flag: true
+  - name: CRFEntityExtractor
+  - name: CountVectorsFeaturizer
+  - name: EmbeddingIntentClassifier
+
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+  - name: MappingPolicy

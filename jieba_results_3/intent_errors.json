@@ -1,0 +1,138 @@
+[
+  {
+    "text": "冷氣開起來",
+    "intent": "appliances",
+    "intent_prediction": {
+      "name": "urgent",
+      "confidence": 0.40077731013298035
+    }
+  },
+  {
+    "text": "幫我把電視關掉",
+    "intent": "appliances",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.6442302465438843
+    }
+  },
+  {
+    "text": "幫我把冷氣關掉",
+    "intent": "appliances",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.6442302465438843
+    }
+  },
+  {
+    "text": "幫我把電視開起來",
+    "intent": "appliances",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.781554102897644
+    }
+  },
+  {
+    "text": "幫我把冷氣開起來",
+    "intent": "appliances",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.781554102897644
+    }
+  },
+  {
+    "text": "幫我拿碗",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.41612714529037476
+    }
+  },
+  {
+    "text": "要洗澡囉",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "urgent",
+      "confidence": 0.40077731013298035
+    }
+  },
+  {
+    "text": "要吃藥囉",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "urgent",
+      "confidence": 0.40077731013298035
+    }
+  },
+  {
+    "text": "拿掃把清一下",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.6442302465438843
+    }
+  },
+  {
+    "text": "拿衛生紙清一下",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "urgent",
+      "confidence": 0.40077731013298035
+    }
+  },
+  {
+    "text": "拿報紙清一下",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.41612714529037476
+    }
+  },
+  {
+    "text": "手有點痛，可能需要去一趟醫院",
+    "intent": "urgent",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.8558421730995178
+    }
+  },
+  {
+    "text": "眼睛有點痛，我要去看醫生",
+    "intent": "urgent",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.8972618579864502
+    }
+  },
+  {
+    "text": "牙齒有點痛，我要去看醫生",
+    "intent": "urgent",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.8972618579864502
+    }
+  },
+  {
+    "text": "我的肚子有點痛",
+    "intent": "urgent",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.6442302465438843
+    }
+  },
+  {
+    "text": "我的腳有點痛",
+    "intent": "urgent",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.6442302465438843
+    }
+  },
+  {
+    "text": "我的鼻子有點痛",
+    "intent": "urgent",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.6442302465438843
+    }
+  }
+]

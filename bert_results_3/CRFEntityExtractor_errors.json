@@ -1,0 +1,190 @@
+[
+  {
+    "text": "幫我把冷氣開起來",
+    "entities": [
+      {
+        "end": 5,
+        "entity": "appliances",
+        "start": 3,
+        "value": "冷氣"
+      },
+      {
+        "end": 8,
+        "entity": "switch",
+        "start": 5,
+        "value": "開起來"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "appliances",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.5526164055086387,
+        "value": "氣",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "switch",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.7288360891646006,
+        "value": "開起來",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "宵夜有點想吃麻辣鍋",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "meal",
+        "start": 0,
+        "value": "宵夜"
+      },
+      {
+        "end": 9,
+        "entity": "food",
+        "start": 6,
+        "value": "麻辣鍋"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "bodyparts",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.41992697703583876,
+        "value": "宵夜",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "food",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9346187511918863,
+        "value": "麻辣鍋",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "中餐有點想吃滷肉飯",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "meal",
+        "start": 0,
+        "value": "中餐"
+      },
+      {
+        "end": 9,
+        "entity": "food",
+        "start": 6,
+        "value": "滷肉飯"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "meal",
+        "start": 1,
+        "end": 2,
+        "confidence_entity": 0.38139975555585903,
+        "value": "餐",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "food",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9125755587844573,
+        "value": "滷肉飯",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "中餐有點想吃蛋餅",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "meal",
+        "start": 0,
+        "value": "中餐"
+      },
+      {
+        "end": 8,
+        "entity": "food",
+        "start": 6,
+        "value": "蛋餅"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "meal",
+        "start": 1,
+        "end": 2,
+        "confidence_entity": 0.3814108108204841,
+        "value": "餐",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "food",
+        "start": 6,
+        "end": 8,
+        "confidence_entity": 0.9080454460224762,
+        "value": "蛋餅",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "幫我拿碗",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "tableware",
+        "start": 3,
+        "value": "碗"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "要吃藥囉",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "do_daliy",
+        "start": 1,
+        "value": "吃藥"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "手好痛",
+    "entities": [
+      {
+        "end": 1,
+        "entity": "bodyparts",
+        "start": 0,
+        "value": "手"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我的肚子有點痛",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "bodyparts",
+        "start": 2,
+        "value": "肚子"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

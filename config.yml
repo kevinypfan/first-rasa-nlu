@@ -1,16 +1,15 @@
 language: zh
 pipeline:
-  - name: HFTransformersNLP
-    model_name: "bert"
-    model_weights: "bert-base-chinese"
-  - name: "LanguageModelTokenizer"
-  - name: "LanguageModelFeaturizer"
-  # - name: "EmbeddingIntentClassifier"
-  # - name: JiebaTokenizer
-  #   dictionary_path: /Users/kevinfan/code/nlu/first_rasa/data/foods.txt
-  #   intent_tokenization_flag: true
+  # - name: HFTransformersNLP
+  #   model_name: "bert"
+  #   model_weights: "bert-base-chinese"
+  # - name: "LanguageModelTokenizer"
+  # - name: "LanguageModelFeaturizer"
+  - name: JiebaTokenizer
+    dictionary_path: /Users/kevinfan/code/nlu/first_rasa/words.txt
+    intent_tokenization_flag: true
   # - name: RegexFeaturizer
-  # - name: LexicalSyntacticFeaturizer
+  - name: LexicalSyntacticFeaturizer
   # - name: CountVectorsFeaturizer
   - name: CRFEntityExtractor
   - name: DIETClassifier

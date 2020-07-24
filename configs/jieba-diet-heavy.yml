@@ -1,0 +1,20 @@
+language: zh
+pipeline:
+  - name: JiebaTokenizer
+    dictionary_path: words.txt
+    intent_tokenization_flag: true
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 30
+    num_transformer_layers: 4
+    transformer_size: 256
+    drop_rate: 0.25
+    weight_sparsity: 0.7
+    batch_size: [64, 256]
+    embedding_dimension: 30
+    hidden_layer_sizes:
+      text: [512, 128]

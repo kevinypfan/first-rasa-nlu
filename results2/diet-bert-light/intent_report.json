@@ -1,0 +1,45 @@
+{
+  "housework": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 27,
+    "confused_with": {
+      "buysomething": 6
+    }
+  },
+  "buysomething": {
+    "precision": 0.9433962264150944,
+    "recall": 1.0,
+    "f1-score": 0.970873786407767,
+    "support": 100,
+    "confused_with": {}
+  },
+  "urgent": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40,
+    "confused_with": {}
+  },
+  "appliances": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 58,
+    "confused_with": {}
+  },
+  "accuracy": 0.9733333333333334,
+  "macro avg": {
+    "precision": 0.9858490566037736,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9614684466019418,
+    "support": 225
+  },
+  "weighted avg": {
+    "precision": 0.9748427672955975,
+    "recall": 0.9733333333333334,
+    "f1-score": 0.9720550161812298,
+    "support": 225
+  }
+}

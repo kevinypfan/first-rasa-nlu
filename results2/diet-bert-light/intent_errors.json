@@ -1,0 +1,50 @@
+[
+  {
+    "text": "幫我拿杯子",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.9992792010307312
+    }
+  },
+  {
+    "text": "幫我拿報紙",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.9784647226333618
+    }
+  },
+  {
+    "text": "要吃藥囉",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.9972589015960693
+    }
+  },
+  {
+    "text": "幫我拿叉子",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.8764053583145142
+    }
+  },
+  {
+    "text": "要刷牙囉",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.9839704632759094
+    }
+  },
+  {
+    "text": "要洗手囉",
+    "intent": "housework",
+    "intent_prediction": {
+      "name": "buysomething",
+      "confidence": 0.5055142641067505
+    }
+  }
+]

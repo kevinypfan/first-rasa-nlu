@@ -1,0 +1,363 @@
+[
+  {
+    "text": "冷氣關掉",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "appliances",
+        "start": 0,
+        "value": "冷氣"
+      },
+      {
+        "end": 4,
+        "entity": "switch",
+        "start": 2,
+        "value": "關掉"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "appliances",
+        "start": 1,
+        "end": 2,
+        "value": "氣",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "switch",
+        "start": 2,
+        "end": 4,
+        "value": "關掉",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "我想吃四海遊龍的海鮮麵",
+    "entities": [
+      {
+        "end": 7,
+        "entity": "store",
+        "start": 3,
+        "value": "四海遊龍"
+      },
+      {
+        "end": 11,
+        "entity": "food",
+        "start": 8,
+        "value": "海鮮麵"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "store",
+        "start": 3,
+        "end": 4,
+        "value": "四",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "store",
+        "start": 5,
+        "end": 7,
+        "value": "遊龍",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food",
+        "start": 8,
+        "end": 11,
+        "value": "海鮮麵",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "今天突然好想吃饅頭",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "date",
+        "start": 0,
+        "value": "今天"
+      },
+      {
+        "end": 9,
+        "entity": "food",
+        "start": 7,
+        "value": "饅頭"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 9,
+        "value": "饅頭",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "要吃藥囉",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "do_daliy",
+        "start": 1,
+        "value": "吃藥"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "冷氣開起來",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "appliances",
+        "start": 0,
+        "value": "冷氣"
+      },
+      {
+        "end": 5,
+        "entity": "switch",
+        "start": 2,
+        "value": "開起來"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "appliances",
+        "start": 1,
+        "end": 2,
+        "value": "氣",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "switch",
+        "start": 2,
+        "end": 5,
+        "value": "開起來",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "今天突然好想吃鐵板麵",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "date",
+        "start": 0,
+        "value": "今天"
+      },
+      {
+        "end": 10,
+        "entity": "food",
+        "start": 7,
+        "value": "鐵板麵"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 10,
+        "value": "鐵板麵",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "要刷牙囉",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "do_daliy",
+        "start": 1,
+        "value": "刷牙"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "do_daliy",
+        "start": 2,
+        "end": 3,
+        "value": "牙",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "拿報紙清一下",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "sweeping_tools",
+        "start": 1,
+        "value": "報紙"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sweeping_tools",
+        "start": 2,
+        "end": 3,
+        "value": "紙",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "電視開起來",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "appliances",
+        "start": 0,
+        "value": "電視"
+      },
+      {
+        "end": 5,
+        "entity": "switch",
+        "start": 2,
+        "value": "開起來"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "switch",
+        "start": 2,
+        "end": 5,
+        "value": "開起來",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "現在突然好想吃麻辣鍋",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "date",
+        "start": 0,
+        "value": "現在"
+      },
+      {
+        "end": 10,
+        "entity": "food",
+        "start": 7,
+        "value": "麻辣鍋"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 10,
+        "value": "麻辣鍋",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "我要杯咖啡加麻辣鍋",
+    "entities": [
+      {
+        "end": 5,
+        "entity": "drink",
+        "start": 3,
+        "value": "咖啡"
+      },
+      {
+        "end": 9,
+        "entity": "food",
+        "start": 6,
+        "value": "麻辣鍋"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "drink",
+        "start": 3,
+        "end": 5,
+        "value": "咖啡",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 9,
+        "value": "辣鍋",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "現在突然好想吃海鮮粥",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "date",
+        "start": 0,
+        "value": "現在"
+      },
+      {
+        "end": 10,
+        "entity": "food",
+        "start": 7,
+        "value": "海鮮粥"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 10,
+        "value": "海鮮粥",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "要洗澡囉",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "do_daliy",
+        "start": 1,
+        "value": "洗澡"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "do_daliy",
+        "start": 1,
+        "end": 2,
+        "value": "洗",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "我的肚子有點痛",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "bodyparts",
+        "start": 2,
+        "value": "肚子"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "bodyparts",
+        "start": 3,
+        "end": 4,
+        "value": "子",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

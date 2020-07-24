@@ -1,0 +1,709 @@
+[
+  {
+    "text": "幫我把電視關掉",
+    "entities": [
+      {
+        "end": 5,
+        "entity": "appliances",
+        "start": 3,
+        "value": "電視"
+      },
+      {
+        "end": 7,
+        "entity": "switch",
+        "start": 5,
+        "value": "關掉"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "冷氣調高4度",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "level",
+        "start": 3,
+        "value": "高"
+      },
+      {
+        "end": 5,
+        "entity": "number",
+        "start": 4,
+        "value": "4"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9773851085479855,
+        "value": "4",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "冷氣調低5度",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "level",
+        "start": 3,
+        "value": "低"
+      },
+      {
+        "end": 5,
+        "entity": "number",
+        "start": 4,
+        "value": "5"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9773894794809155,
+        "value": "5",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "冷氣調高128度",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "level",
+        "start": 3,
+        "value": "高"
+      },
+      {
+        "end": 7,
+        "entity": "number",
+        "start": 4,
+        "value": "128"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9773851085479855,
+        "value": "128",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "冷氣調低128度",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "level",
+        "start": 3,
+        "value": "低"
+      },
+      {
+        "end": 7,
+        "entity": "number",
+        "start": 4,
+        "value": "128"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9773894794809155,
+        "value": "128",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "冷氣調低32度",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "level",
+        "start": 3,
+        "value": "低"
+      },
+      {
+        "end": 6,
+        "entity": "number",
+        "start": 4,
+        "value": "32"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.9773894794809155,
+        "value": "32",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "冷氣調高27度",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "level",
+        "start": 3,
+        "value": "高"
+      },
+      {
+        "end": 6,
+        "entity": "number",
+        "start": 4,
+        "value": "27"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.9773851085479855,
+        "value": "27",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "宵夜有點想吃麻辣鍋",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "meal",
+        "start": 0,
+        "value": "宵夜"
+      },
+      {
+        "end": 9,
+        "entity": "food",
+        "start": 6,
+        "value": "麻辣鍋"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9354434336691951,
+        "value": "麻辣鍋",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "中餐有點想吃滷肉飯",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "meal",
+        "start": 0,
+        "value": "中餐"
+      },
+      {
+        "end": 9,
+        "entity": "food",
+        "start": 6,
+        "value": "滷肉飯"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9315507029719517,
+        "value": "滷肉飯",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "肚子好餓好想吃美而美大腸臭臭鍋",
+    "entities": [
+      {
+        "end": 10,
+        "entity": "store",
+        "start": 7,
+        "value": "美而美"
+      },
+      {
+        "end": 15,
+        "entity": "food",
+        "start": 10,
+        "value": "大腸臭臭鍋"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "幫我買一杯三商巧福紅茶",
+    "entities": [
+      {
+        "end": 5,
+        "entity": "quantifier",
+        "start": 3,
+        "value": "一杯"
+      },
+      {
+        "end": 9,
+        "entity": "store",
+        "start": 5,
+        "value": "三商巧福"
+      },
+      {
+        "end": 11,
+        "entity": "drink",
+        "start": 9,
+        "value": "紅茶"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantifier",
+        "start": 3,
+        "end": 5,
+        "confidence_entity": 0.9621711370831911,
+        "value": "一杯",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "可不可以幫我買拉亞的巧克力蛋糕",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "store",
+        "start": 7,
+        "value": "拉亞"
+      },
+      {
+        "end": 15,
+        "entity": "food",
+        "start": 10,
+        "value": "巧克力蛋糕"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9881989034661964,
+        "value": "巧克力蛋糕",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想要一個卡布奇諾",
+    "entities": [
+      {
+        "end": 5,
+        "entity": "quantifier",
+        "start": 3,
+        "value": "一個"
+      },
+      {
+        "end": 9,
+        "entity": "drink",
+        "start": 5,
+        "value": "卡布奇諾"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantifier",
+        "start": 3,
+        "end": 5,
+        "confidence_entity": 0.8413778866887662,
+        "value": "一個",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要一杯紅茶加內羹麵",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "quantifier",
+        "start": 2,
+        "value": "一杯"
+      },
+      {
+        "end": 6,
+        "entity": "drink",
+        "start": 4,
+        "value": "紅茶"
+      },
+      {
+        "end": 10,
+        "entity": "food",
+        "start": 7,
+        "value": "內羹麵"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantifier",
+        "start": 2,
+        "end": 4,
+        "confidence_entity": 0.9852080144105617,
+        "value": "一杯",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "drink",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.5745095142357962,
+        "value": "紅茶",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "肚子好餓好想吃拉亞餛飩湯",
+    "entities": [
+      {
+        "end": 9,
+        "entity": "store",
+        "start": 7,
+        "value": "拉亞"
+      },
+      {
+        "end": 12,
+        "entity": "food",
+        "start": 9,
+        "value": "餛飩湯"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.9638052480775696,
+        "value": "餛飩湯",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要拉亞鐵板麵",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "store",
+        "start": 2,
+        "value": "拉亞"
+      },
+      {
+        "end": 7,
+        "entity": "food",
+        "start": 4,
+        "value": "鐵板麵"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9329365583957295,
+        "value": "鐵板麵",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想吃美而美的滷肉飯",
+    "entities": [
+      {
+        "end": 6,
+        "entity": "store",
+        "start": 3,
+        "value": "美而美"
+      },
+      {
+        "end": 10,
+        "entity": "food",
+        "start": 7,
+        "value": "滷肉飯"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.8923416021394944,
+        "value": "滷肉飯",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "中餐有點想吃蛋餅",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "meal",
+        "start": 0,
+        "value": "中餐"
+      },
+      {
+        "end": 8,
+        "entity": "food",
+        "start": 6,
+        "value": "蛋餅"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "food",
+        "start": 6,
+        "end": 8,
+        "confidence_entity": 0.9004276228908754,
+        "value": "蛋餅",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要一杯綠茶加巧克力蛋糕",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "quantifier",
+        "start": 2,
+        "value": "一杯"
+      },
+      {
+        "end": 6,
+        "entity": "drink",
+        "start": 4,
+        "value": "綠茶"
+      },
+      {
+        "end": 12,
+        "entity": "food",
+        "start": 7,
+        "value": "巧克力蛋糕"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantifier",
+        "start": 2,
+        "end": 4,
+        "confidence_entity": 0.9712260585992173,
+        "value": "一杯",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9578012649147891,
+        "value": "巧克力蛋糕",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要一個綠茶加餛飩麵",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "quantifier",
+        "start": 2,
+        "value": "一個"
+      },
+      {
+        "end": 6,
+        "entity": "drink",
+        "start": 4,
+        "value": "綠茶"
+      },
+      {
+        "end": 10,
+        "entity": "food",
+        "start": 7,
+        "value": "餛飩麵"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantifier",
+        "start": 2,
+        "end": 4,
+        "confidence_entity": 0.9601173877174068,
+        "value": "一個",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "food",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9726222546356654,
+        "value": "餛飩麵",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要杯綠茶加皮蛋瘦肉粥",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "quantifier",
+        "start": 2,
+        "value": "杯"
+      },
+      {
+        "end": 5,
+        "entity": "drink",
+        "start": 3,
+        "value": "綠茶"
+      },
+      {
+        "end": 11,
+        "entity": "food",
+        "start": 6,
+        "value": "皮蛋瘦肉粥"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantifier",
+        "start": 2,
+        "end": 3,
+        "confidence_entity": 0.9572011060733363,
+        "value": "杯",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "food",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.9292726616672363,
+        "value": "皮蛋瘦肉粥",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "要洗澡囉",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "do_daliy",
+        "start": 1,
+        "value": "洗澡"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "要吃藥囉",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "do_daliy",
+        "start": 1,
+        "value": "吃藥"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "拿衛生紙清一下",
+    "entities": [
+      {
+        "end": 4,
+        "entity": "sweeping_tools",
+        "start": 1,
+        "value": "衛生紙"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "頭好痛",
+    "entities": [
+      {
+        "end": 1,
+        "entity": "bodyparts",
+        "start": 0,
+        "value": "頭"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "手好痛",
+    "entities": [
+      {
+        "end": 1,
+        "entity": "bodyparts",
+        "start": 0,
+        "value": "手"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "手有點痛",
+    "entities": [
+      {
+        "end": 1,
+        "entity": "bodyparts",
+        "start": 0,
+        "value": "手"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "手有點痛，可能需要去一趟醫院",
+    "entities": [
+      {
+        "end": 1,
+        "entity": "bodyparts",
+        "start": 0,
+        "value": "手"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我的腳有點痛",
+    "entities": [
+      {
+        "end": 3,
+        "entity": "bodyparts",
+        "start": 2,
+        "value": "腳"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
