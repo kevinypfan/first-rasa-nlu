@@ -4,7 +4,6 @@ pipeline:
     dictionary_path: /Users/kevinfan/code/nlu/first_rasa/words.txt
     intent_tokenization_flag: true
   - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4

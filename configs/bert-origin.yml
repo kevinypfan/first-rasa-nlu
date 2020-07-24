@@ -1,0 +1,10 @@
+language: zh
+pipeline:
+  - name: HFTransformersNLP
+    model_weights: "bert-base-chinese"
+    model_name: "bert"
+  - name: LanguageModelTokenizer
+  - name: LanguageModelFeaturizer
+  - name: DIETClassifier
+    epochs: 20
+    num_transformer_layers: 0
