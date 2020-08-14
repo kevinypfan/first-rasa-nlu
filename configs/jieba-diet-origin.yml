@@ -9,9 +9,3 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     epochs: 20
-    learning_rate: 0.001
-    num_transformer_layers: 2
-    embedding_dimension: 20
-    weight_sparcity: 0.80
-    hidden_layer_sizes:
-      text: [256, 128]

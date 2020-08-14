@@ -1,0 +1,34 @@
+[
+  {
+    "text": "這邊碰到就會痛",
+    "intent": "emergency",
+    "intent_prediction": {
+      "name": "housing_order",
+      "confidence": 0.4556662440299988
+    }
+  },
+  {
+    "text": "我想吃八方雲集的巧克力蛋糕",
+    "intent": "food_use",
+    "intent_prediction": {
+      "name": "food_buy",
+      "confidence": 0.5852341651916504
+    }
+  },
+  {
+    "text": "我想吃八方雲集的餛飩湯",
+    "intent": "food_use",
+    "intent_prediction": {
+      "name": "food_buy",
+      "confidence": 0.8478128910064697
+    }
+  },
+  {
+    "text": "我想吃三商巧福的蛋糕",
+    "intent": "food_use",
+    "intent_prediction": {
+      "name": "food_buy",
+      "confidence": 0.4186781048774719
+    }
+  }
+]

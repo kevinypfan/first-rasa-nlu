@@ -1,0 +1,48 @@
+[
+  {
+    "text": "拿魷魚焿麵過來",
+    "entities": [
+      {
+        "end": 1,
+        "entity": "verb_take",
+        "start": 0,
+        "value": "拿"
+      },
+      {
+        "end": 5,
+        "entity": "food",
+        "start": 1,
+        "value": "魷魚焿麵"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "verb_take",
+        "start": 0,
+        "end": 1,
+        "value": "拿",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food",
+        "start": 1,
+        "end": 9,
+        "value": "魷魚焿麵過來",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "我想出去走走",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "verb_hangout",
+        "start": 4,
+        "end": 6,
+        "value": "走走",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

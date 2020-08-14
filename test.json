@@ -1,0 +1,91 @@
+{
+  "intent": { "name": "buysomething", "confidence": 0.9999885559 },
+  "entities": [
+    {
+      "entity": "food",
+      "start": 4,
+      "end": 7,
+      "value": "牛肉麵",
+      "extractor": "DIETClassifier",
+      "images": [
+        {
+          "entityId": "5f154e1822ccff48bef243dc",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 1,
+          "image": "1bceb3ff5ffd559b9a99d2d22bfe8edd50cf98b4.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243dd",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 0,
+          "image": "6e7c2fb9174fa1f4f7cc88ca621bc265a9be8392.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243de",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 0,
+          "image": "f34b28cd05344bf8a04d24d81c585b7860b7eb81.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243df",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 0,
+          "image": "9fdd4cf11caffede3d684f3cf11d75fd423b5874.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243e0",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 1,
+          "image": "20b43e09c4e8216a8b8b5132e27d3f1aa597600d.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243e1",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 0,
+          "image": "0138b9757c11e4e82524823236b28c8b291a4cdf.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243e2",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 0,
+          "image": "c13868f8fffdbe5c9fe0e3824124291352a7a54b.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243e3",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 0,
+          "image": "323023ffafa0a78c55ed612f5069e34b4d1e9510.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243e4",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 0,
+          "image": "1d8efcb933b97e9d448fe0c96c523daa07304a1f.png"
+        },
+        {
+          "entityId": "5f154e1822ccff48bef243e5",
+          "entity": "food",
+          "value": "牛肉麵",
+          "hits": 3,
+          "image": "5b24b5824eb9691489c583d45374e891ddb8ebd2.png"
+        }
+      ]
+    }
+  ],
+  "intent_ranking": [
+    { "name": "buysomething", "confidence": 0.9999885559 },
+    { "name": "appliances", "confidence": 0.0000078817 },
+    { "name": "housework", "confidence": 0.0000033433 },
+    { "name": "urgent", "confidence": 2.534e-7 }
+  ],
+  "text": "我要一碗牛肉麵"
+}

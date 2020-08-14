@@ -1,0 +1,31 @@
+%[findRestaurantsByCity]('training': '100', 'testing': '100')
+    ~[hi?] ~[please?] ~[find?] ~[restaurants] ~[located at] @[city] ~[city?] ~[thanks?]
+    ~[restaurants] ~[located at] @[city]
+@[city]
+    ~[new york]
+    ~[san francisco]
+    ~[atlanta]
+~[find]
+    find
+    i'm looking for
+    help me find
+~[located at]
+    located at
+    in the area of
+    near
+~[restaurants]
+    restaurants
+    places to eat
+    where to eat
+~[hi]
+    hi
+    hello
+    hey
+~[please]
+    please
+    plz
+    pls
+~[thanks]
+    thanks
+    thank you
+

@@ -7,4 +7,3 @@ pipeline:
   - name: LanguageModelFeaturizer
   - name: DIETClassifier
     epochs: 20
-    num_transformer_layers: 0

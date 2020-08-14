@@ -15,5 +15,3 @@ pipeline:
     num_transformer_layers: 0
     embedding_dimension: 10
     weight_sparcity: 0.90
-    # hidden_layer_sizes:
-    #   text: [256, 128]
