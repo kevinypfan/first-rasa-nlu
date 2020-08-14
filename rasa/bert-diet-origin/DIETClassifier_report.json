@@ -1,111 +1,63 @@
 {
-  "verb_none": {
+  "electrical": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 20
+    "support": 47
+  },
+  "verb_drink": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2
   },
   "housing_item": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 36
+    "support": 28
   },
-  "verb_clean": {
+  "store_drink": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 24
+    "support": 15
   },
-  "adj_dirty": {
-    "precision": 1.0,
+  "verb_think": {
+    "precision": 0.9761904761904762,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14
+    "f1-score": 0.9879518072289156,
+    "support": 41
   },
-  "clothing": {
-    "precision": 1.0,
+  "verb_hangout": {
+    "precision": 0.9411764705882353,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 115
+    "f1-score": 0.9696969696969697,
+    "support": 32
   },
-  "verb_daily": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 42
-  },
-  "verb_eat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25
-  },
-  "tense": {
+  "hardware": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 4
   },
-  "verb_hangout": {
-    "precision": 0.9473684210526315,
+  "spot": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.972972972972973,
-    "support": 36
+    "f1-score": 1.0,
+    "support": 54
   },
   "bodyparts": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 43
+    "support": 40
   },
-  "food": {
-    "precision": 0.9915966386554622,
-    "recall": 1.0,
-    "f1-score": 0.9957805907172996,
-    "support": 236
-  },
-  "verb_buy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 50
-  },
-  "conjunctions": {
+  "verb_switch_on": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 24
-  },
-  "verb_switch_off": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25
-  },
-  "verb_take": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 63
-  },
-  "verb_think": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 44
-  },
-  "housing_requirement": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 90
-  },
-  "drink": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 28
   },
   "verb_takeoff": {
     "precision": 1.0,
@@ -113,23 +65,35 @@
     "f1-score": 1.0,
     "support": 4
   },
-  "hardware": {
+  "adj_dirty": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 13
   },
-  "verb_switch_on": {
+  "housing_requirement": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 25
+    "support": 103
+  },
+  "drink": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 34
+  },
+  "verb_remember": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 70
   },
   "clean_item": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 26
+    "support": 16
   },
   "number_clock": {
     "precision": 1.0,
@@ -137,64 +101,106 @@
     "f1-score": 1.0,
     "support": 23
   },
-  "store_food": {
+  "verb_none": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 76
+    "support": 19
   },
-  "spot": {
-    "precision": 1.0,
+  "verb_eat": {
+    "precision": 0.9583333333333334,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 49
+    "f1-score": 0.9787234042553191,
+    "support": 23
   },
-  "store_drink": {
+  "verb_switch_off": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 12
+    "support": 25
   },
-  "electrical": {
+  "food": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 38
+    "support": 236
+  },
+  "verb_daily": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 42
+  },
+  "conjunctions": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28
+  },
+  "verb_clean": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23
+  },
+  "verb_buy": {
+    "precision": 1.0,
+    "recall": 0.98,
+    "f1-score": 0.98989898989899,
+    "support": 50
+  },
+  "verb_take": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 58
   },
   "verb_requirement": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16
-  },
-  "verb_remember": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 60
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 12
   },
   "quantifier": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 32
+    "support": 35
+  },
+  "clothing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 118
+  },
+  "tense": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8
+  },
+  "store_food": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 56
   },
   "micro avg": {
-    "precision": 0.9969159599074788,
-    "recall": 1.0,
-    "f1-score": 0.9984555984555985,
-    "support": 1293
+    "precision": 0.9968847352024922,
+    "recall": 0.9976617303195635,
+    "f1-score": 0.9972730814179978,
+    "support": 1283
   },
   "macro avg": {
-    "precision": 0.9979655019902699,
-    "recall": 1.0,
-    "f1-score": 0.998958452123009,
-    "support": 1293
+    "precision": 0.9959903316165176,
+    "recall": 0.9805376344086022,
+    "f1-score": 0.9854664379637836,
+    "support": 1283
   },
   "weighted avg": {
-    "precision": 0.9970008274405133,
-    "recall": 1.0,
-    "f1-score": 0.9984773754341142,
-    "support": 1293
+    "precision": 0.997025037606625,
+    "recall": 0.9976617303195635,
+    "f1-score": 0.9971578403136471,
+    "support": 1283
   }
 }

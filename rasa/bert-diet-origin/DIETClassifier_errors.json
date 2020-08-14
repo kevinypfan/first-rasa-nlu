@@ -1,45 +1,143 @@
 [
   {
-    "text": "拿魷魚焿麵過來",
+    "text": "買衛生衣",
     "entities": [
       {
         "end": 1,
-        "entity": "verb_take",
+        "entity": "verb_buy",
         "start": 0,
-        "value": "拿"
+        "value": "買"
       },
       {
-        "end": 5,
-        "entity": "food",
+        "end": 4,
+        "entity": "clothing",
         "start": 1,
-        "value": "魷魚焿麵"
+        "value": "衛生衣"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "verb_take",
-        "start": 0,
-        "end": 1,
-        "value": "拿",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "food",
+        "entity": "clothing",
         "start": 1,
-        "end": 9,
-        "value": "魷魚焿麵過來",
+        "end": 4,
+        "value": "衛生衣",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "我想出去走走",
+    "text": "我要買衛生衣",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "verb_requirement",
+        "start": 1,
+        "value": "要"
+      },
+      {
+        "end": 3,
+        "entity": "verb_buy",
+        "start": 2,
+        "value": "買"
+      },
+      {
+        "end": 6,
+        "entity": "clothing",
+        "start": 3,
+        "value": "衛生衣"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "verb_think",
+        "start": 1,
+        "end": 2,
+        "value": "要",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "verb_buy",
+        "start": 2,
+        "end": 3,
+        "value": "買",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "clothing",
+        "start": 3,
+        "end": 6,
+        "value": "衛生衣",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "我要喝大苑子可樂",
+    "entities": [
+      {
+        "end": 2,
+        "entity": "verb_think",
+        "start": 1,
+        "value": "要"
+      },
+      {
+        "end": 3,
+        "entity": "verb_drink",
+        "start": 2,
+        "value": "喝"
+      },
+      {
+        "end": 6,
+        "entity": "store_drink",
+        "start": 3,
+        "value": "大苑子"
+      },
+      {
+        "end": 8,
+        "entity": "drink",
+        "start": 6,
+        "value": "可樂"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "verb_think",
+        "start": 1,
+        "end": 2,
+        "value": "要",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "verb_eat",
+        "start": 2,
+        "end": 3,
+        "value": "喝",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "store_drink",
+        "start": 3,
+        "end": 6,
+        "value": "大苑子",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "drink",
+        "start": 6,
+        "end": 8,
+        "value": "可樂",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "想出去走走",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "verb_hangout",
-        "start": 4,
-        "end": 6,
+        "start": 3,
+        "end": 5,
         "value": "走走",
         "extractor": "DIETClassifier"
       }
